@@ -129,7 +129,7 @@ body{
     }
     
     .header__menu{
-        justify-content: center;
+        justify-content: center;        
     }
 
     .presentacion {
@@ -139,5 +139,21 @@ body{
 
     .presentacion__contenido{
         width: 100%;
+    }
+}
+
+@media (max-width: 450px){
+
+    .header{
+        padding: 10%;
+    }
+
+    .header__menu{
+        gap: 20px;
+    }
+
+    .presentacion{
+        flex-direction: column;
+        gap: 40px;
     }
 }
