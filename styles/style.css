@@ -3,8 +3,8 @@
 :root{
     --color-primario: #000000;
     --color-secundario: #F6F6F6;
-    --color-terciario: #22D4FD;
-    --color-menu-link-hover: #007bff;
+    --color-terciario: #8A2FDA;
+    --color-menu-link-hover: #363457;
     --color-contenido-enlaces-hover: #272727;
     --fuente-montserrat: 'Montserrat', serif;
     --fuente-krona: 'Krona One', serif;
@@ -15,8 +15,7 @@
     padding: 0;
 }
 
-body{
-    /*background-color: #BFB0B0;*/
+body{    
     background-color: var(--color-primario);
     color: var(--color-secundario);    
     box-sizing: border-box;
