@@ -114,7 +114,7 @@ body{
 
 .footer{
     background-color: var(--color-terciario);
-    padding: 15px;
+    padding: 10px;
     color: var(--color-primario);
     text-align: center;
     font-family: var(--fuente-montserrat);
